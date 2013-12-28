@@ -1,0 +1,219 @@
+atti.wav,Attitude
+batcrit.wav,Battery critical
+batlow.wav,Battery low
+camcenter.wav,Camera centered
+camfix.wav,Camera fixed
+cammanual.wav,Camera manual
+capacity.wav,Capacity
+engdis.wav,Engine disabled
+engoff.wav,Engine off
+engon.wav,Engine on
+flaps1.wav,Flaps one
+flaps2.wav,Flaps two
+flapsdn.wav,Flaps down
+flapsup.wav,Flaps up
+fltmode1.wav,Flight mode 1
+fltmode2.wav,Flight mode 2
+fltmode3.wav,Flight mode 3
+fltmode4.wav,Flight mode 4
+fltmode5.wav,Flight mode 5
+fltmode6.wav,Flight mode 6
+fltmode7.wav,Flight mode 7
+fltmode8.wav,Flight mode 8
+fsoff.wav,Failsafe off
+fson.wav,Failsafe on
+geardn.wav,Gear down
+gearup.wav,Gear up
+gps.wav,GPS
+hirates.wav,High rates
+htoff.wav,Head tracker off
+hton.wav,Head tracker on
+ioc.wav,IOC
+iocoff.wav,IOC off
+lowrates.wav,Low rates
+manual.wav,Manual
+normal.wav,Normal
+nrmmod.wav,Normal mode
+thrhold.wav,Throttle hold
+thrrel.wav,Throttle released
+SYSTEM/0000.wav,0
+SYSTEM/0001.wav,1
+SYSTEM/0002.wav,2
+SYSTEM/0003.wav,3
+SYSTEM/0004.wav,4
+SYSTEM/0005.wav,5
+SYSTEM/0006.wav,6
+SYSTEM/0007.wav,7
+SYSTEM/0008.wav,8
+SYSTEM/0009.wav,9
+SYSTEM/0010.wav,10
+SYSTEM/0011.wav,11
+SYSTEM/0012.wav,12
+SYSTEM/0013.wav,13
+SYSTEM/0014.wav,14
+SYSTEM/0015.wav,15
+SYSTEM/0016.wav,16
+SYSTEM/0017.wav,17
+SYSTEM/0018.wav,18
+SYSTEM/0019.wav,19
+SYSTEM/0020.wav,20
+SYSTEM/0021.wav,21
+SYSTEM/0022.wav,22
+SYSTEM/0023.wav,23
+SYSTEM/0024.wav,24
+SYSTEM/0025.wav,25
+SYSTEM/0026.wav,26
+SYSTEM/0027.wav,27
+SYSTEM/0028.wav,28
+SYSTEM/0029.wav,29
+SYSTEM/0030.wav,30
+SYSTEM/0031.wav,31
+SYSTEM/0032.wav,32
+SYSTEM/0033.wav,33
+SYSTEM/0034.wav,34
+SYSTEM/0035.wav,35
+SYSTEM/0036.wav,36
+SYSTEM/0037.wav,37
+SYSTEM/0038.wav,38
+SYSTEM/0039.wav,39
+SYSTEM/0040.wav,40
+SYSTEM/0041.wav,41
+SYSTEM/0042.wav,42
+SYSTEM/0043.wav,43
+SYSTEM/0044.wav,44
+SYSTEM/0045.wav,45
+SYSTEM/0046.wav,46
+SYSTEM/0047.wav,47
+SYSTEM/0048.wav,48
+SYSTEM/0049.wav,49
+SYSTEM/0050.wav,50
+SYSTEM/0051.wav,51
+SYSTEM/0052.wav,52
+SYSTEM/0053.wav,53
+SYSTEM/0054.wav,54
+SYSTEM/0055.wav,55
+SYSTEM/0056.wav,56
+SYSTEM/0057.wav,57
+SYSTEM/0058.wav,58
+SYSTEM/0059.wav,59
+SYSTEM/0060.wav,60
+SYSTEM/0061.wav,61
+SYSTEM/0062.wav,62
+SYSTEM/0063.wav,63
+SYSTEM/0064.wav,64
+SYSTEM/0065.wav,65
+SYSTEM/0066.wav,66
+SYSTEM/0067.wav,67
+SYSTEM/0068.wav,68
+SYSTEM/0069.wav,69
+SYSTEM/0070.wav,70
+SYSTEM/0071.wav,71
+SYSTEM/0072.wav,72
+SYSTEM/0073.wav,73
+SYSTEM/0074.wav,74
+SYSTEM/0075.wav,75
+SYSTEM/0076.wav,76
+SYSTEM/0077.wav,77
+SYSTEM/0078.wav,78
+SYSTEM/0079.wav,79
+SYSTEM/0080.wav,80
+SYSTEM/0081.wav,81
+SYSTEM/0082.wav,82
+SYSTEM/0083.wav,83
+SYSTEM/0084.wav,84
+SYSTEM/0085.wav,85
+SYSTEM/0086.wav,86
+SYSTEM/0087.wav,87
+SYSTEM/0088.wav,88
+SYSTEM/0089.wav,89
+SYSTEM/0090.wav,90
+SYSTEM/0091.wav,91
+SYSTEM/0092.wav,92
+SYSTEM/0093.wav,93
+SYSTEM/0094.wav,94
+SYSTEM/0095.wav,95
+SYSTEM/0096.wav,96
+SYSTEM/0097.wav,97
+SYSTEM/0098.wav,98
+SYSTEM/0099.wav,99
+SYSTEM/0100.wav,100
+SYSTEM/0101.wav,200
+SYSTEM/0102.wav,300
+SYSTEM/0103.wav,400
+SYSTEM/0104.wav,500
+SYSTEM/0105.wav,600
+SYSTEM/0106.wav,700
+SYSTEM/0107.wav,800
+SYSTEM/0108.wav,900
+SYSTEM/0109.wav,1000
+SYSTEM/0111.wav,minus
+SYSTEM/0112.wav,point
+SYSTEM/0115.wav,volt
+SYSTEM/0116.wav,volts
+SYSTEM/0117.wav,amp
+SYSTEM/0118.wav,amps
+SYSTEM/0119.wav,meter per second
+SYSTEM/0120.wav,meters per second
+SYSTEM/0123.wav,KMH
+SYSTEM/0124.wav,KMH
+SYSTEM/0125.wav,meter
+SYSTEM/0126.wav,meters
+SYSTEM/0127.wav,degree
+SYSTEM/0128.wav,degrees
+SYSTEM/0129.wav,percent
+SYSTEM/0130.wav,percent
+SYSTEM/0131.wav,milliamp
+SYSTEM/0132.wav,milliamps
+SYSTEM/0133.wav,M A H
+SYSTEM/0134.wav,M A H
+SYSTEM/0135.wav,watt
+SYSTEM/0136.wav,watts
+SYSTEM/0137.wav,db
+SYSTEM/0138.wav,db
+SYSTEM/0140.wav,feet
+SYSTEM/0141.wav,knot
+SYSTEM/0142.wav,knots
+SYSTEM/0143.wav,hour
+SYSTEM/0144.wav,hours
+SYSTEM/0145.wav,minute
+SYSTEM/0146.wav,minutes
+SYSTEM/0147.wav,second
+SYSTEM/0148.wav,seconds
+SYSTEM/0149.wav,rpm
+SYSTEM/0150.wav,rpm
+SYSTEM/0151.wav,g
+SYSTEM/0152.wav,g
+SYSTEM/0160.wav,point 0
+SYSTEM/0161.wav,point 1
+SYSTEM/0162.wav,point 2
+SYSTEM/0163.wav,point 3
+SYSTEM/0164.wav,point 4
+SYSTEM/0165.wav,point 5
+SYSTEM/0166.wav,point 6
+SYSTEM/0167.wav,point 7
+SYSTEM/0168.wav,point 8
+SYSTEM/0169.wav,point 9
+SYSTEM/a1_org.wav,A1 low
+SYSTEM/a1_red.wav,A1 critical
+SYSTEM/a2_org.wav,A2 critical
+SYSTEM/a2_red.wav,A2 critical
+SYSTEM/endtrim.wav,Maximum trim reached
+SYSTEM/inactiv.wav,Inactivity alarm
+SYSTEM/lowbatt.wav,Low battery
+SYSTEM/midtrim.wav,Trim center
+SYSTEM/rssi_org.wav,RF signal low
+SYSTEM/rssi_red.wav,RF signal critical
+SYSTEM/swalert.wav,Switch warning
+SYSTEM/swr_red.wav,Radio antenna defective
+SYSTEM/tada.wav,Welcome to Taranis
+SYSTEM/telemko.wav,Telemetry lost
+SYSTEM/telemok.wav,Telemetry recovered
+SYSTEM/thralert.wav,Throttle warning
+SYSTEM/timer10.wav,10 seconds
+SYSTEM/timer20.wav,20 seconds
+SYSTEM/timer30.wav,30 seconds
+horn.wav,
+pouet.wav,
+shutter.wav,
+wizz.wav,
+SYSTEM/timerlt3.wav,
