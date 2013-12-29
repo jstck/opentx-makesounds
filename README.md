@@ -21,3 +21,5 @@ brew install sox
 Even if you don't care for the normalizing and silence-trimming, the WAV files output by say (or afconvert) for some reason will not play properly in the Taranis.
 
 Output directory, output format, CSV separator and voice can all be adjusted in the script.
+
+The provided sounds_en.csv includes all the default sounds. It includes some "non-spoken" sounds as well, which are silently ignored by the script.
