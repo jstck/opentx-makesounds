@@ -1,6 +1,6 @@
 atti.wav,Attitude
 batcrit.wav,Battery critical
-batlow.wav,Battery low
+batlow.wav,Low battery
 camcenter.wav,Camera centered
 camfix.wav,Camera fixed
 cammanual.wav,Camera manual
@@ -195,7 +195,7 @@ SYSTEM/0168.wav,point 8
 SYSTEM/0169.wav,point 9
 SYSTEM/a1_org.wav,A1 low
 SYSTEM/a1_red.wav,A1 critical
-SYSTEM/a2_org.wav,A2 critical
+SYSTEM/a2_org.wav,A2 low
 SYSTEM/a2_red.wav,A2 critical
 SYSTEM/endtrim.wav,Maximum trim reached
 SYSTEM/inactiv.wav,Inactivity alarm
