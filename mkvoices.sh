@@ -6,14 +6,21 @@ OUTDIR=$(dirname $0)/SOUNDS/en
 #Use a voice other than system default
 #VOICE="Allison"
 
+#Only make files where the destination doesn't already exist
+UPDATEONLY=true
+
 #Sound output format to sox
 
-#High-quality for Taranis. Note that say seems to just output 22kHz/16bits. While voice usually doesn't go much above 4-5kHz,
-#32kHz is what is shipped default, might as well stich to that. In parenthesis because bash.
+#High-quality for Taranis. "say" seems to just output 22kHz/16bits, so there is little point converting to anything above that
+#(and voice usually doesn't go much above 4-5kHz anyway). In parenthesis (array) because bash.
+#FORMAT=(--bits 16 --channels 1 --encoding signed-integer --rate 22050)
+
+#32kHz is what is shipped default, encode as such.
 FORMAT=(--bits 16 --channels 1 --encoding signed-integer --rate 32k)
 
-#Lower quality for other radios
-#FORMAT=(--bits 8 --channels 1 --encoding a-law --rate 8k)
+#Lower quality for other radios. A-law or u-law companding is mostly a matter of religious bias.
+#U-law should have greater dynamic range though.
+#FORMAT=(--bits 8 --channels 1 --encoding u-law --rate 8k)
 
 #sox "effects" to trim silence and normalize sound level
 EFFECTS=(silence 1 0.1 1% gain -n -1)
@@ -33,6 +40,16 @@ do
 	if [[ -z "$OUTFILE" ]]; then continue; fi
 	if [[ -z "$SAYING" ]]; then continue; fi
 	DEST="$OUTDIR/$OUTFILE"
+
+	#Skip and warn if filename is too long (>10 chars, excluding suffix)
+	BASE=$(basename ${OUTFILE%.*})
+	if [[ ${#BASE} -gt 10 ]]
+	then
+		echo "Filename '$OUTFILE' is too long, skipping." >&2
+		continue
+	fi
+
+        if [[ $UPDATEONLY && -e $DEST ]]; then continue; fi
 	
 	echo "\"$SAYING\" => $DEST"
 
