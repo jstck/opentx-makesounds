@@ -49,7 +49,7 @@ do
 		continue
 	fi
 
-        if [[ $UPDATEONLY && -e $DEST ]]; then continue; fi
+        if [[ "$UPDATEONLY" = true && -e $DEST ]]; then continue; fi
 	
 	echo "\"$SAYING\" => $DEST"
 
